@@ -31,11 +31,9 @@
 ## Steps
 
 - [x] create skeleton html css js
-- [] connect API
-- [] apply design
-- [] set up the functions
-- [] test the functions
-- [] Deploy
-- [] Refine/refactor
-
-![steps](https://pbs.twimg.com/media/FMGiYxKVkAQ52pz?format=jpg&name=large "symbols of steps")
+- [ ] connect API
+- [ ] apply design
+- [ ] set up the functions
+- [ ] test the functions
+- [ ] Deploy
+- [ ] Refine/refactor
