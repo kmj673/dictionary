@@ -2,24 +2,28 @@
 const search = document.querySelector("#search");
 const word = search.querySelector("#word");
 
-function fetchFn() {
+function createUrl(e) {
+  e.preventDefault();
   const formData = new FormData(search);
   const searchData = Object.fromEntries(formData);
   const url =
     "https://api.dictionaryapi.dev/api/v2/entries/en/" + searchData.word;
-  fetch(url, {
-    method: "GET",
-  })
+  return url;
+}
+function renderWord(word) {
+  console.log(word);
+}
+
+search.addEventListener("submit", (e) => {
+  let url = createUrl(e);
+  let promise = fetch(url)
     .then((response) => {
       if (!response.ok) new Error(response.status);
       return response.json();
     })
-    .then((json) => JSON.stringify(json))
+    .then((json) => json)
     .catch(console.error);
-}
-
-search.addEventListener("submit", (e) => {
-  e.preventDefault();
-  fetchFn();
-  word.value = "";
+  promise.then((response) => {
+    renderWord(response);
+  });
 });
