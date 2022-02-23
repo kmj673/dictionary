@@ -16,14 +16,13 @@ function renderWord(word) {
 
 search.addEventListener("submit", (e) => {
   let url = createUrl(e);
-  let promise = fetch(url)
+  fetch(url)
     .then((response) => {
       if (!response.ok) new Error(response.status);
       return response.json();
     })
-    .then((json) => json)
+    .then((json) => {
+      renderWord(json);
+    })
     .catch(console.error);
-  promise.then((response) => {
-    renderWord(response);
-  });
 });
