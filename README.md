@@ -24,7 +24,7 @@
 ## Steps
 
 - [x] create skeleton html css js
-- [ ] connect API
+- [x] connect API
 - [ ] apply design
 - [ ] set up the functions
 - [ ] test the functions
