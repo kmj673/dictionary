@@ -23,9 +23,6 @@
 - apply the design from figma
 
 ## Sources
-
-- [Figma](https://www.figma.com/file/JGdCW0x8fZnIGUS8i1PZBa/Dictinary?node-id=0%3A1)
-- [Frontend mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub/job-listings-with-filtering-tcwIyklIb)
 - [Free dictionary API](https://dictionaryapi.dev/)
 
 ## Steps
