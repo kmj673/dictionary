@@ -1,14 +1,12 @@
 # Dictionary
 
 ## User Story
-
 - As a user, I want to search some english words.
 - I don't want any Ad on the page.
 - It will be nice to be able to listen pronounciation.
 - I want at least one example sentence.
 
 ## User Journey
-
 - type the word in search bar
 - click search button
 - see the loading of dictionary
@@ -17,10 +15,8 @@
 - user can see each meaning has at least one example sentence.
 
 ## Learnings
-
 - test the functions of dictionary
 - api connection and promise
-- apply the design from figma
 
 ## Sources
 - [Free dictionary API](https://dictionaryapi.dev/)
