@@ -3,7 +3,52 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
-  background-color: azure;
+  font-size: 16px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 5rem auto 5rem;
+  grid-template-rows: 50px 1fr 50px;
+  gap: 1rem;
+}
+.grid > form {
+  border: 5px solid pink;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  justify-self: center;
+  align-self: start;
+  margin-top: 1rem;
+}
+.horizontal {
+  border: 5px solid pink;
+
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  justify-self: start;
+  align-self: center;
+}
+.vertical {
+  border: 5px solid pink;
+
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+  transform: rotate(90deg);
+  justify-self: end;
+  align-self: center;
+}
+.searchResult {
+  border: 5px solid pink;
+  padding: 1rem;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  justify-self: center;
+  align-self: start;
+  margin-top: 1rem;
+}
+footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
 }
