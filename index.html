@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Dictionary</h1>
-    <main>
+    <main class="grid">
+      <h1 class="horizontal">Dictionary</h1>
+      <h1 class="vertical">Dictionary</h1>
       <form action="" id="search">
         <input type="text" placeholder="type word..." name="word" id="word" />
         <button type="submit">Search</button>
       </form>
-      <h2 class="searchWord"></h2>
-      <h3 class="searchPhonetic"></h3>
-      <ul class="searchMeaning"></ul>
+      <section class="searchResult">
+        <h2 class="searchWord"></h2>
+        <h3 class="searchPhonetic"></h3>
+        <ul class="searchMeaning"></ul>
+      </section>
     </main>
+    <footer>Created by <a href="https://github.com/kmj673">@kmj673</a></footer>
     <script src="script.js"></script>
   </body>
 </html>
