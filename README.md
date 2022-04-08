@@ -20,6 +20,7 @@
 
 ## Sources
 - [Free dictionary API](https://dictionaryapi.dev/)
+- [Excalidraw design](https://excalidraw.com/#json=lCcaCu3jr-1KoD6Sz7rKK,t93nSQDMoJ08uX-Sydmosw)
 
 ## Steps
 
